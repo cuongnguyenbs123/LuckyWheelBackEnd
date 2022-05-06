@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LuckyWheel", "LuckyWheel\LuckyWheel.csproj", "{1A3BB698-71E8-4EDC-8570-973FAF30E97F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LuckyWheel.Core", "LuckyWheel.Core\LuckyWheel.Core.csproj", "{3897F008-577B-4BFC-8C74-A9FE207C7588}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A3BB698-71E8-4EDC-8570-973FAF30E97F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A3BB698-71E8-4EDC-8570-973FAF30E97F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A3BB698-71E8-4EDC-8570-973FAF30E97F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A3BB698-71E8-4EDC-8570-973FAF30E97F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3897F008-577B-4BFC-8C74-A9FE207C7588}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3897F008-577B-4BFC-8C74-A9FE207C7588}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3897F008-577B-4BFC-8C74-A9FE207C7588}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3897F008-577B-4BFC-8C74-A9FE207C7588}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FEBC5970-7E91-4C5C-8192-CA0E35747AC8}
+	EndGlobalSection
+EndGlobal

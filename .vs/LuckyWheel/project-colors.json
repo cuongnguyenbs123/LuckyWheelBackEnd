@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "1a3bb698-71e8-4edc-8570-973faf30e97f": {
+      "ProjectGuid": "1a3bb698-71e8-4edc-8570-973faf30e97f",
+      "DisplayName": "LuckyWheel",
+      "ColorIndex": 0
+    },
+    "3897f008-577b-4bfc-8c74-a9fe207c7588": {
+      "ProjectGuid": "3897f008-577b-4bfc-8c74-a9fe207c7588",
+      "DisplayName": "LuckyWheel.Core",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
