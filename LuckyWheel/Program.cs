@@ -13,7 +13,9 @@ builder.Services.AddSwaggerGen();
 builder.Services.Configure<DBConfig>(builder.Configuration);
 builder.Services.AddSingleton<IDBConfig, DBConfigServices>();
 builder.Services.AddTransient<IPrizeServices, PrizeServices>();
-builder.Services.AddCors();
+builder.Services.AddCors();/// <summary>
+/// ///
+/// </summary>
 
 var app = builder.Build();
 
