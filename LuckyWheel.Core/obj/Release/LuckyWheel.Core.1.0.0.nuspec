@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>LuckyWheel.Core</id>
+    <version>1.0.0</version>
+    <authors>LuckyWheel.Core</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net6.0">
+        <dependency id="Microsoft.Extensions.Options" version="6.0.0" exclude="Build,Analyzers" />
+        <dependency id="MongoDB.Bson" version="2.15.1" exclude="Build,Analyzers" />
+        <dependency id="MongoDB.Driver" version="2.15.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\a\source\repos\LuckyWheel\LuckyWheel.Core\bin\Release\net6.0\LuckyWheel.Core.dll" target="lib\net6.0\LuckyWheel.Core.dll" />
+  </files>
+</package>

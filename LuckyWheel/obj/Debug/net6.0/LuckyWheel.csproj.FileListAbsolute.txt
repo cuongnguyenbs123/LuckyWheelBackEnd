@@ -43,3 +43,4 @@ C:\Users\a\source\repos\LuckyWheel\LuckyWheel\obj\Debug\net6.0\LuckyWheel.dll
 C:\Users\a\source\repos\LuckyWheel\LuckyWheel\obj\Debug\net6.0\ref\LuckyWheel.dll
 C:\Users\a\source\repos\LuckyWheel\LuckyWheel\obj\Debug\net6.0\LuckyWheel.pdb
 C:\Users\a\source\repos\LuckyWheel\LuckyWheel\obj\Debug\net6.0\LuckyWheel.genruntimeconfig.cache
+C:\Users\a\source\repos\LuckyWheel\LuckyWheel\bin\Debug\net6.0\aws-beanstalk-tools-defaults.json

@@ -10,5 +10,6 @@ namespace LuckyWheel.Core.Interfaces
     public interface IPrizeServices
     {
         List<Prize> GetPrizes();
+        Prize YourPrize();
     }
 }

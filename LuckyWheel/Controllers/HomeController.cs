@@ -18,5 +18,10 @@ namespace LuckyWheel.Controllers
         {
             return Ok(_prizes.GetPrizes());
         }
+        [HttpGet("yourprize")]
+        public IActionResult GetYourPrize()
+        {
+            return Ok(_prizes.YourPrize());
+        }
     }
 }

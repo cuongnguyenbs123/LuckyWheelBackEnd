@@ -1,4 +1,4 @@
-﻿{
+{
   "$schema": "https://json.schemastore.org/launchsettings.json",
   "iisSettings": {
     "windowsAuthentication": false,
@@ -11,15 +11,15 @@
   "profiles": {
     "LuckyWheel": {
       "commandName": "Project",
-      "dotnetRunMessages": true,
       "launchBrowser": true,
       "launchUrl": "swagger",
-      "applicationUrl": "https://localhost:7135;http://localhost:5135",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development",
         "DATABASE_NAME": "LuckyWheel",
         "PRIZE_COLLECTION_NAME": "Prizes"
-      }
+      },
+      "applicationUrl": "https://localhost:7135;http://localhost:5135",
+      "dotnetRunMessages": true
     },
     "IIS Express": {
       "commandName": "IISExpress",
@@ -30,6 +30,13 @@
         "DATABASE_NAME": "LuckyWheel",
         "PRIZE_COLLECTION_NAME": "Prizes"
       }
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "launchBrowser": true,
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}/swagger",
+      "publishAllPorts": true,
+      "useSSL": true
     }
   }
 }

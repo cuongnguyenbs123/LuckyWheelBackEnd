@@ -1,0 +1,22 @@
+
+{
+    "region" : "us-east-1",
+    "configuration" : "Debug",
+    "framework"     : "net6.0",
+    "self-contained" : true,
+    "application"    : "LuckyWheel2710",
+    "environment"    : "LuckyWheel2710-dev",
+    "enable-xray"    : false,
+    "enhanced-health-type" : "basic",
+    "additional-options"   : "\"aws:autoscaling:launchconfiguration,SecurityGroups\"=\"sg-08792b20fce19a0c3\";\"aws:ec2:vpc,Subnets\"=\"subnet-08c0a9ecebf394f53\"",
+    "solution-stack"       : "64bit Windows Server Core 2019 v2.9.1 running IIS 10.0",
+    "environment-type"     : "SingleInstance",
+    "cname"                : "luckywheel2710-dev",
+    "instance-type"        : "t2.medium",
+    "key-pair"             : "",
+    "instance-profile"     : "aws-elasticbeanstalk-ec2-role",
+    "service-role"         : "aws-elasticbeanstalk-service-role",
+    "proxy-server"         : "nginx",
+    "app-path"             : "/",
+    "iis-website"          : "Default Web Site"
+}

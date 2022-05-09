@@ -1,0 +1,20 @@
+
+{
+    "region" : "us-west-2",
+    "configuration" : "Debug",
+    "framework"     : "net6.0",
+    "self-contained" : false,
+    "application"    : "LuckyWheel",
+    "environment"    : "LuckyWheel-dev",
+    "enable-xray"    : false,
+    "enhanced-health-type" : "basic",
+    "additional-options"   : "\"aws:autoscaling:launchconfiguration,SecurityGroups\"=\"sg-025778a29f3a5c52f\";\"aws:ec2:vpc,Subnets\"=\"subnet-0969d47ae5aa81baa\"",
+    "solution-stack"       : "64bit Amazon Linux 2 v2.3.1 running .NET Core",
+    "environment-type"     : "SingleInstance",
+    "cname"                : "luckywheel-dev",
+    "instance-type"        : "t3a.medium",
+    "key-pair"             : "",
+    "instance-profile"     : "aws-elasticbeanstalk-LuckyWheel-dev-0",
+    "service-role"         : "aws-elasticbeanstalk-service-role",
+    "proxy-server"         : "nginx"
+}
